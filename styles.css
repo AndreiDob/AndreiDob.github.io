@@ -1,0 +1,87 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+			background-color: #eaeaea;
+        }
+
+        .top-bar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .top-bar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        .top-bar a:hover {
+            background-color: #444;
+        }
+        .dropdown:hover {
+            background-color: #444
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #555;
+            min-width: 300px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #666;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+		
+		
+	.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  .image-container {
+    width: 34%; /* Each image takes up 30% of the container width */
+    position: relative;
+    text-align: center; /* Align the title in the center */
+	
+  }
+  .image-container img {
+    width: 100%;
+    display: block;
+	height: 130px;
+	object-fit: cover;
+  }
+  .title {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(5%, -50%);
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
